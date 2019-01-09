@@ -1,0 +1,7 @@
+{
+  "name": "sds011-particle-sensor",
+  "version": "1.0.0",
+  "description": "A blockly block to handle the SDS011 particle sensor with arduino.",
+  "author": "Philippe Jadin",
+  "license": "GPL-3.0"
+}

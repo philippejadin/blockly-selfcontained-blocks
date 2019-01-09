@@ -1,0 +1,6 @@
+Those blocks allows one to use the SDS011 particle sensor.
+It uses this library : https://github.com/lewapek/sds-dust-sensors-arduino-library
+
+A sketch must contain both a setup block to initialize it, and a read block every time you want to read a value from the particle sensor.
+
+Currently here is no check on whether a read is performed too quickly for the sensor. Please wait at least 5 seconds between two reads.
