@@ -1,7 +1,7 @@
 {
   "name": "led",
   "version": "1.0.0",
-  "description": "A blockly block to turn on and of a led with arduino.",
+  "description": "A blockly block to turn on and off a led with arduino.",
   "author": "Philippe Jadin, JP-Fontaine, Seedstudio",
   "license": "GPL-3.0"
 }

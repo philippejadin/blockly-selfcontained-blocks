@@ -2,15 +2,15 @@
 Blockly.Blocks['led'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("LED")
+        .appendField('%{BKY_LED}')
         .appendField(new Blockly.FieldImage("./blocks/grove/Red_LED_s.jpg", 64, 64))
-        .appendField("PIN#")
+        .appendField('%{BKY_PIN}')
         .appendField(new Blockly.FieldDropdown(profile.default.dropdownDigital), "PIN")
-        .appendField("stat")
+        .appendField('%{BKY_STATUS}')
         .appendField(new Blockly.FieldDropdown([["HIGH", "HIGH"], ["LOW", "LOW"]]), "STAT");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
-    this.setTooltip('LED');
+    this.setTooltip('%{BKY_LED_TOOLTIP}');
     this.setHelpUrl('http://wiki.seeedstudio.com/Grove-Red_LED/')
     this.setColour('%{BKY_ACTUATOR_HUE}');
   }
