@@ -3,7 +3,7 @@ Blockly.Blocks['led'] = {
   init: function() {
     this.appendDummyInput()
         .appendField('%{BKY_LED}')
-        .appendField(new Blockly.FieldImage("./blocks/grove/Red_LED_s.jpg", 64, 64))
+        .appendField(new Blockly.FieldImage("./res/led.png", 64, 64))
         .appendField('%{BKY_PIN}')
         .appendField(new Blockly.FieldDropdown(profile.default.dropdownDigital), "PIN")
         .appendField('%{BKY_STATUS}')
